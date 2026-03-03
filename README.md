@@ -6,13 +6,7 @@ Current and predicted prices work with the [Amber Electric integration](https://
 
 # Installation
 
-### Install via HACS
-
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=homotics&repository=amber-prices-card&category=dashboard)
-
-TODO
-
-### Install via HACS (future)
+### Install via HACS (coming)
 
 [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=homotics&repository=amber-prices-card&category=dashboard)
 
@@ -32,6 +26,6 @@ TODO
 
 Select Amber Prices card when editing your dashboard.
 
-If you are using the Home Assistant Amber Electric integration then leave the general previous and feed-in previous fields empty. If you are using the Amber Prices integration then all the entities should be available.
+If you are using the Home Assistant Amber Electric integration then leave the _Amber general previous_ and _Amber feed in previous_ fields empty. If you are using the Amber Prices integration then all the entities should be available.
 
-Scroll left or right with a mouse, or drag left or right on a phoneor tablet to see the other prices. Right click to return to the current price.
+Scroll left or right with a mouse, or drag left or right on a phone or tablet to see the other prices. Right click to return to the current price.
