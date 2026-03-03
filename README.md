@@ -1,12 +1,14 @@
-# Amber Prices Card by [@homotics](https://github.com/homotics) <!-- omit in toc -->
+# Amber Prices Card for Home Assistant<!-- omit in toc -->
 
-This is a card to show the previous, current and predicted prices for [Amber Electric](https://www.amber.com.au/).
+This card shows the previous, current and predicted prices for [Amber Electric](https://www.amber.com.au/).
 
-Current and predicted prices work with the [Amber Electric integration](https://www.home-assistant.io/integrations/amberelectric) in Home Assistant. Previous prices are available with the Amber Prices integration.
+![Amber Prices Card](card.png)
+
+Current and predicted prices work with the [Amber Electric](https://www.home-assistant.io/integrations/amberelectric) integration in Home Assistant. In addition, previous prices are available with the [Amber Prices](https://github.com/homotics/amber_prices) integration.
 
 # Installation
 
-### Install via HACS (coming)
+### Install via HACS
 
 [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=homotics&repository=amber-prices-card&category=dashboard)
 
@@ -26,6 +28,8 @@ Current and predicted prices work with the [Amber Electric integration](https://
 
 Select Amber Prices card when editing your dashboard.
 
-If you are using the Home Assistant Amber Electric integration then leave the _Amber general previous_ and _Amber feed in previous_ fields empty. If you are using the Amber Prices integration then all the entities should be available.
+If you are using the Home Assistant [Amber Electric](https://www.home-assistant.io/integrations/amberelectric) integration,
+then leave the _Amber general previous_ and _Amber feed in previous_ fields empty.
+If you are using the [Amber Prices](https://github.com/homotics/amber_prices) integration then all the entities should be available.
 
 Scroll left or right with a mouse, or drag left or right on a phone or tablet to see the other prices. Right click to return to the current price.
